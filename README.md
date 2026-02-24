@@ -6,8 +6,6 @@ It supports user authentication (JWT), role-based access control,
 ticket CRUD operations, ticket assignment, status tracking, and commenting.
 
 
-
-
  TECH STACK
 
   - Framework       : ASP.NET Core 8 Web API
@@ -40,12 +38,15 @@ Tables Created:
   - ticket_comments    : Stores comments on tickets
   - ticket_status_logs : Logs ticket status changes
 
-Default Roles (Seeded Automatically):
-  ID    Role Name
+Default Roles:
 
+  ID    Role Name
    1    MANAGER
    2    SUPPORT
    3    USER
 
 Password: "Password@123" - for all users
-
+Users:
+Admin- admin@gmail.com  [Manager]
+Worker- abc@gmail.com   [Support]
+Rohit- rohit45@gmail.com [User]
