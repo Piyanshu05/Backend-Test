@@ -1,6 +1,5 @@
-================================================================================
+
                SUPPORT TICKET MANAGEMENT SYSTEM - README
-================================================================================
 
 A REST API built with ASP.NET Core 8 for managing support tickets. 
 It supports user authentication (JWT), role-based access control, 
@@ -9,9 +8,7 @@ ticket CRUD operations, ticket assignment, status tracking, and commenting.
 
 
 
-================================================================================
  TECH STACK
-================================================================================
 
   - Framework       : ASP.NET Core 8 Web API
   - Language         : C#
@@ -23,7 +20,6 @@ ticket CRUD operations, ticket assignment, status tracking, and commenting.
 NuGet Packages Used:
 
   Package                                          
-  ------------------------------------------------
   Microsoft.EntityFrameworkCore.SqlServer           
   Microsoft.EntityFrameworkCore.Tools               
   Microsoft.AspNetCore.Authentication.JwtBearer     
@@ -32,9 +28,7 @@ Swashbuckle.AspNetCore
 
 
 
-================================================================================
   DATABASE SETUP
-================================================================================
 
 This project uses EF Core Code-First approach. The database and tables are 
 AUTOMATICALLY CREATED when you run the project for the first time.
@@ -48,7 +42,7 @@ Tables Created:
 
 Default Roles (Seeded Automatically):
   ID    Role Name
-  ---   ---------
+
    1    MANAGER
    2    SUPPORT
    3    USER
